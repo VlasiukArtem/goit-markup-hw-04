@@ -711,9 +711,9 @@ body {
   border: none;
 }
 
-.modal-close-btn:hover .modal-icon,
-.modal-close-btn:focus .modal-icon {
-  fill: var(--ocean);
+.modal-close-btn:hover .icon-modal,
+.modal-close-btn:focus .icon-modal {
+  fill: #ffffff;
 }
 
 .is-hidden {
