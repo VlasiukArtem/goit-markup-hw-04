@@ -708,7 +708,7 @@ body {
 
 .icon-modal:is(:hover, :focus) {
 }
-.modal-close-btn:is(:hover, :focus) {
+.modal-close-btn:is(:hover, :focus) .icon-modal {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
