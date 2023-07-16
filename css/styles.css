@@ -424,8 +424,8 @@ body {
 .customers-list-item {
   border-radius: 4px;
   border: 1px solid var(--light-slate);
-  width: 168px;
   height: 88px;
+  width: 168px;
 }
 
 .customers-link {
