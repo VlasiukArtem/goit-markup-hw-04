@@ -708,12 +708,14 @@ body {
 
 .icon-modal:is(:hover, :focus) {
 }
-.modal-close-btn:is(:hover, :focus) .icon-modal {
+.modal-close-btn:is(:hover, :focus) {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 
+.modal-close-btn:is(:hover, :focus) .modal-icon {
+  fill: #ffffff;
+}
 .is-hidden {
   opacity: 0;
   visibility: hidden;
